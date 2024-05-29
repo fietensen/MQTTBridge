@@ -15,9 +15,14 @@ MQTTBridge is a simple and lightweight proxy tool designed to faciliate MQTT com
     - `MQTTBRIDGE_PROXY_HOST` - The host name / address of the MQTTBridge proxy (defaults to `127.0.0.1` / localhost)
     - `MQTTBRIDGE_PROXY_PORT` - The port of the MQTTBridge proxy (defaults to `1883`)
 
+#### Running
+
+After the setup, running MQTTBridge is as simple as running the following command in the project's root directory:
+`python ./src/main.py`
+
 ### Via docker
 
-MQTTBridge comes with with a docker configuration. You can either build your own image running `docker build -t [IMAGE_NAME] .` in the project's root directory, or use the prebuilt, published image.
+MQTTBridge comes with with a docker configuration. You can either build your own image running `docker build -t [IMAGE_NAME] .` in the project's root directory, or use the prebuilt, published image which you can find at https://hub.docker.com/repository/docker/fietensen/mqttbridge.
 
 To run the docker image you can run following command:
 ```sh
